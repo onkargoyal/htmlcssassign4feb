@@ -1,0 +1,73 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-around;
+  font-family: Poppins;
+  margin: 20px;
+}
+
+.mini-container {
+  display: flex;
+  justify-content: stretch;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+  display: inline-block;
+}
+
+.contactus {
+  justify-self: stretch;
+  align-self: center;
+
+  justify-self: right;
+}
+.contactusbutton {
+  background-color: rgb(75, 75, 203);
+  color: white;
+  padding: 10px;
+  font-family: Poppins;
+  border-radius: 12px;
+  font-weight: bold;
+  justify-content: right;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.details {
+  width: 100%;
+  justify-self: center;
+  align-self: center;
+  font-size: 30px;
+}
+.main-image {
+  width: 100%;
+}
+
+.para {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.seeourservicesbutton {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: rgb(75, 75, 203);
+  color: white;
+  font-family: Poppins;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+span {
+  color: rgb(75, 75, 203);
+}
